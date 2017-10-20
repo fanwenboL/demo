@@ -14,7 +14,7 @@ import axios from 'axios';
 </script>
 <style>
 	#hui{
-		width:100%;
+		
 		height:0.625rem;
 		background-color: #e5e5e5;
 	}
