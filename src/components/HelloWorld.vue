@@ -3,7 +3,9 @@
     <haederswp></haederswp>
     <swp></swp>
 	<sestion></sestion>
-	<hotbuy></hotbuy>
+	<hui></hui>
+	<hotbuy></hotbuy> 
+	<hui></hui>
 	<feeter></feeter>
   </div>
 </template>

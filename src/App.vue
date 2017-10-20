@@ -1,6 +1,6 @@
 <template>
  
-  <div id="app" >
+  <div id="app">
       <!-- <mt-swipe :show-indicators="false"> -->
      
 	<!-- <div id="hui"></div>
@@ -19,7 +19,10 @@ export default{
 </script>
   
 <style>
-		
+		body,html,#app{
+			height:100%;
+			overflow: auto;
+		}
 			/*#hui{
 				height:0.3rem;
 				width:100%;

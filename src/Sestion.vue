@@ -25,9 +25,9 @@ import axios from 'axios';
   	var that = this;
     axios.get('/static/caidan.json')
     .then(function(res){
-      console.log(res);
+      
       that.list=res.data;
-     console.log(res.data[0].tup)
+     
     })
     .catch(function(){
       console.log("chucuole");

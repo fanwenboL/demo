@@ -2,9 +2,35 @@
 <div>
 	<footer>
 		<ul>
-			<li v-for="lis in list">
-				<img :src="lis.tup">
-				<span>{{lis.name}}</span>
+			<li>
+				<router-link to="/">
+				<img src="http://image2.suning.cn/uimg/cms/img/150115446803451639.png?from=mobile&16">
+				<span>猜你喜欢</span>
+				</router-link>
+			</li>
+			<li>
+				<router-link to="fenlei">
+				<img src="http://image1.suning.cn/uimg/cms/img/149804285027181893.png?from=mobile&16">
+				<span>分类</span>
+				</router-link>
+			</li>
+			<li>
+				<router-link to="biqiang">
+				<img src="http://image3.suning.cn/uimg/cms/img/149542396539322161.png?from=mobile&16">
+				<span>必抢清单</span>
+				</router-link>
+			</li>
+			<li>
+				<router-link to="shopping">
+				<img src="http://image4.suning.cn/uimg/cms/img/149916145707908251.png?from=mobile&16">
+				<span>购物车</span>
+				</router-link>
+			</li>
+			<li>
+				<router-link to="denglu">
+				<img src="http://image4.suning.cn/uimg/cms/img/149916132444173312.png?from=mobile&16">
+				<span>我的易购</span>
+				</router-link>
 			</li>
 		</ul>
 	</footer>
@@ -34,10 +60,14 @@ import axios from 'axios';
 	}
 </script>
 <style>
+	a{
+		text-decoration:none;
+		color:#000;
+	}
 	footer{
 		position:fixed;
 		bottom: 0;
-		
+		background-color: #fff;
 		height: 1.999375rem;
 		width:100%;
 	}

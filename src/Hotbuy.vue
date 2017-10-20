@@ -29,8 +29,7 @@
 	}
 </script>
 <style>
-	*{margin: 0;
-		padding: 0}
+	
 	.nav{
 		
 		height: 4.21875rem;
@@ -103,7 +102,7 @@
     margin: .2rem auto 0;
     width: 1.99625rem;
     height:  0.586562rem;
-    overflow: hidden;
+   
     font-weight: bold;
 	}
 	.nav-a-1 img,.nav-a-2 img{
@@ -119,7 +118,7 @@
     color: #FFF;
     background: #e52e2a;
     width:1.333125rem;
-    overflow: hidden;
+    
     line-height: 0.42625rem;
     border-radius: .32rem;
 	text-align: center;

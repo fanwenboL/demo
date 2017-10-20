@@ -4,16 +4,13 @@
  		 <meta name="viewport" content="initial-scale=1,maximum-scale=1, minimum-scale=1">
     	<header>
 			<ul>
-				<li><i class="iconfont">&#xe630;</i><span>分类</span></li>
+				<li><router-link to="/fenlei"><i class="iconfont">&#xe630;</i><span>分类</span></router-link></li>
 				<li><input type="text" placeholder="生活家电0元购"></li>
 				<li><img /></li>
 			</ul>
 		</header>
 
 		</div>
-   
-    
-
 </template>
 <script type="text/javascript" src="/static/flexible.js"></script>
 <script>
@@ -25,11 +22,11 @@ export default {
 </script>
 <style>
 	
-		*{
-			margin: 0;
-			height:0;
-			}
 		
+		header a{
+			text-decoration:none;
+			color: #fff;
+		}
 		@font-face {font-family: "iconfont";
           src: url('/static/font/iconfont.eot'); /* IE9*/
           src: url('/static/font/iconfont.eot#iefix') format('embedded-opentype'), /* IE6-IE8 */
@@ -39,7 +36,7 @@ export default {
         }
 
         .iconfont {
-        	margin-top: 0.40625rem;
+        margin-top: 0.40625rem;
           font-family:"iconfont" !important;
           font-size:16px;
           font-style:normal;
@@ -49,12 +46,14 @@ export default {
         }
 			
 			header {
+				width:100%;
 				height: 1.1875rem;
 				background-color: transparent;
 				overflow: hidden;
 				position: fixed;
 				top:0;
 				z-index: 99;
+				
 			}
 			
 			header ul {
@@ -73,9 +72,14 @@ export default {
 				height: 1.1875rem;
 				text-align: center;
 				line-height: 0.59375rem;
+				-webkit-column-rule: #fff;
+				-moz-column-rule: #fff;
+				-o-column-rule: #fff;
+				column-rule: #fff;
 			}
 			header ul li:nth-child(1) span{
 				display: block;
+				color:#fff;
 			}
 			header ul li:nth-child(2){
 				width:7.5rem;
@@ -103,6 +107,7 @@ export default {
 			}
 			
 			header img {
+				color: #fff;
 				border: none;
 				display: block;
 				width:0.53125rem;
